@@ -1,6 +1,6 @@
 # Projeto de recuperação de dívidas.
 
-Temos 203 características, sendo em sua maioria mascaradas. Neste projeto realizei uma análise exploratória dos gráficos, plotando o histograma de todas as variáveis para análisar suas distribuições. Realizei tratamento para os dados nulos tanto para características que haviam muitos dados faltantes (acima de 10% do total foram removidos). Percebi que a variável alvo estava desbalanceada, por isso realizei um undersampling, já que técnicas como SMOTE ou oversampling não são tão interessantes por criar dados artificiais. Realizei o teste de diversos algoritmos de aprendizagem de máquina, e obtive como melhor resultado um classificador Stacking que combina 3 dos algoritmos utilizados. 
+Temos 203 características, sendo em sua maioria mascaradas. Neste projeto realizei uma análise exploratória dos gráficos, plotando o histograma de todas as variáveis para analisar suas distribuições. Realizei tratamento para os dados nulos tanto para características que haviam muitos dados faltantes (acima de 10% do total foram removidos). Percebi que a variável alvo estava desbalanceada, por isso realizei um undersampling, já que técnicas como SMOTE ou oversampling não são tão interessantes por criar dados artificiais. Realizei o teste de diversos algoritmos de aprendizagem de máquina, e obtive como melhor resultado um classificador Stacking que combina 3 dos algoritmos utilizados. 
 Sendo este resultado:
 
 Bom pagador classificado como bom (55,9%)
